@@ -22,8 +22,21 @@ info{
 
 input{
     border: 1px solid #999999;
-    border-radius: 12px;
+    border-radius: 22px;
+    min-width: 250px;
+    width: 80%;
+    margin-right: 12px;
     background: transparent;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+    background: #2d3338;
+    color: #FFFFFF;
     font-size: 18px;
     padding: 10px;
 }
