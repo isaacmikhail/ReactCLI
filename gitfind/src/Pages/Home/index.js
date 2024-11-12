@@ -1,6 +1,7 @@
 
 import { Header } from "../../Compenents/Header";
-import {background} from "./src/Assets/background.png";
+import background from "../../Assets/background.png";
+
 function App() {
   return (
     <div className="App">
@@ -9,8 +10,9 @@ function App() {
         <img src={background} className= "background" alt="background app"></img>
         <div className="info">
           <div>
-            <input name="user" placeholder="@username"></input></div>
+            <input name="user" placeholder="@username"></input>
             <button>Search</button>
+          </div>
         </div>
       </div>
     </div>

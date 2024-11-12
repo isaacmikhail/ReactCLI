@@ -15,5 +15,15 @@ background{
 info{
     width: 60%;
     margin-top: 40px;
+    margin-right: 180px;
+    color: #FFFFFF;
     
+}
+
+input{
+    border: 1px solid #999999;
+    border-radius: 12px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
 }
